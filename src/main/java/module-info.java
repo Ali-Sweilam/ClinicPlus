@@ -10,6 +10,7 @@ module com.example.clinicplus {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires javafx.graphics;
+    requires java.sql;
 
     opens com.example.clinicplus to javafx.fxml;
     opens com.example.clinicplus.Controllers to javafx.fxml;
